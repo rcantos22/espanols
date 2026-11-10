@@ -9,7 +9,7 @@ import ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# made for education purposes only
+# made fo education purposes only
 
 app = Flask(__name__)
 secret_keyx = secrets.token_urlsafe(24)
